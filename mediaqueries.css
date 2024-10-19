@@ -1,0 +1,315 @@
+/* Base styles for all devices */
+body {
+  font-size: 16px;
+}
+
+header h1 {
+  font-size: 2.25rem;
+}
+
+header p {
+  font-size: 1.125rem;
+}
+
+.section h2 {
+  font-size: 1.5rem;
+}
+
+.section h3 {
+  font-size: 1.25rem;
+}
+
+.contact-info i,
+i.fas,
+i.fab {
+  font-size: 1.125rem;
+}
+
+.project-header h3,
+.education-header h3,
+.internship-header h3 {
+  font-size: 1.25rem;
+}
+
+.project-date,
+.education-date,
+.internship-date {
+  font-size: 1rem;
+}
+
+/* For small screens (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .resume-container {
+    padding: 20px;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+
+  .section h2 {
+    font-size: 1.375rem;
+  }
+
+  .section h3 {
+    font-size: 1.125rem;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+  }
+
+  .contact-info p {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+  }
+
+  .project-header h3,
+  .education-header h3,
+  .internship-header h3 {
+    font-size: 1.125rem;
+  }
+
+  .project-date,
+  .education-date,
+  .internship-date {
+    font-size: 0.875rem;
+  }
+
+  /* Align sections and text better for smaller screens */
+  .project-header,
+  .education-header,
+  .internship-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .project-date,
+  .education-date,
+  .internship-date {
+    margin-top: 5px;
+  }
+}
+
+/* For mobile devices in landscape (max-width: 992px) */
+@media screen and (max-width: 992px) and (orientation: landscape) {
+  body {
+    font-size: 15px;
+  }
+
+  .resume-container {
+    padding: 15px;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header p {
+    font-size: 1.125rem;
+  }
+
+  .section h2 {
+    font-size: 1.375rem;
+  }
+
+  .section h3 {
+    font-size: 1.125rem;
+  }
+
+  .project-header h3,
+  .education-header h3,
+  .internship-header h3 {
+    font-size: 1.125rem;
+  }
+
+  .project-date,
+  .education-date,
+  .internship-date {
+    font-size: 0.9rem;
+  }
+
+  /* Adjust column layouts in landscape */
+  .project-header,
+  .education-header,
+  .internship-header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+/* For tablets (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+  body {
+    font-size: 15px;
+  }
+
+  .resume-container {
+    padding: 25px;
+  }
+
+  header h1 {
+    font-size: 2.125rem;
+  }
+
+  header p {
+    font-size: 1.125rem;
+  }
+
+  .section h2 {
+    font-size: 1.375rem;
+  }
+
+  .section h3 {
+    font-size: 1.125rem;
+  }
+
+  .project-header h3,
+  .education-header h3,
+  .internship-header h3 {
+    font-size: 1.125rem;
+  }
+
+  .project-date,
+  .education-date,
+  .internship-date {
+    font-size: 0.9rem;
+  }
+}
+
+/* For very small screens (max-width: 480px) */
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 13px;
+  }
+
+  .resume-container {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 1.875rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+
+  .section h2 {
+    font-size: 1.25rem;
+  }
+
+  .section h3 {
+    font-size: 1rem;
+  }
+
+  .project-header h3,
+  .education-header h3,
+  .internship-header h3 {
+    font-size: 1rem;
+  }
+
+  .project-date,
+  .education-date,
+  .internship-date {
+    font-size: 0.75rem;
+  }
+
+  /* Stacking layout for very small screens */
+  .project-header,
+  .education-header,
+  .internship-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .project-date,
+  .education-date,
+  .internship-date {
+    margin-top: 5px;
+  }
+}
+
+/* Portrait mode for mobile devices */
+@media screen and (max-width: 768px) and (orientation: portrait) {
+  body {
+    font-size: 14px;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+
+  .section h2 {
+    font-size: 1.375rem;
+  }
+
+  .section h3 {
+    font-size: 1.125rem;
+  }
+
+  .project-header h3,
+  .education-header h3,
+  .internship-header h3 {
+    font-size: 1.125rem;
+  }
+
+  .project-date,
+  .education-date,
+  .internship-date {
+    font-size: 0.875rem;
+  }
+
+  /* Stack layout for portrait mode */
+  .project-header,
+  .education-header,
+  .internship-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .project-date,
+  .education-date,
+  .internship-date {
+    margin-top: 5px;
+  }
+}
+
+/* General adjustments for larger screens (desktops) */
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 17px;
+  }
+
+  header h1 {
+    font-size: 2.5rem;
+  }
+
+  .section h2 {
+    font-size: 1.75rem;
+  }
+
+  .section h3 {
+    font-size: 1.5rem;
+  }
+
+  .project-date,
+  .education-date,
+  .internship-date {
+    font-size: 1rem;
+  }
+}

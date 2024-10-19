@@ -1,0 +1,190 @@
+/* General Styles */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+/* Base styles */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #28a745;
+  --text-color: #333;
+  --background-color: #f7f8fa;
+  --white: #fff;
+  --gray: #888;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Container */
+.resume-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: var(--white);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.25rem;
+  color: var(--primary-color);
+}
+
+header p {
+  font-size: 1.125rem;
+  margin: 10px 0;
+}
+
+.contact-info p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-info a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: text-decoration 0.3s ease;
+}
+
+.contact-info a:hover,
+.content a.live-demo:hover {
+  text-decoration: underline;
+}
+
+.contact-info i {
+  color: var(--primary-color);
+}
+
+/* Section */
+.section {
+  margin-bottom: 30px;
+}
+
+.section h2 {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 5px;
+}
+
+.section h3 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  color: var(--text-color);
+}
+
+.content a.live-demo {
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: text-decoration 0.3s ease;
+}
+
+/* Project Section */
+.project {
+  margin-bottom: 20px;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.project-header h3 {
+  font-size: 1.25rem;
+  color: var(--text-color);
+  margin: 0;
+}
+
+.project-date {
+  font-size: 1rem;
+  color: var(--gray);
+  font-style: italic;
+}
+
+/* List styles */
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Icons */
+i.fas,
+i.fab {
+  font-size: 1.125rem;
+  color: var(--primary-color);
+}
+
+/* Education Section */
+.education {
+  margin-bottom: 20px;
+}
+
+.education-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.education-header h3 {
+  font-size: 20px;
+  color: var(--text-color);
+  margin: 0;
+}
+
+.education-date {
+  font-size: 16px;
+  color: var(--gray);
+  font-style: italic;
+}
+
+/* Internship Section */
+.internship {
+  margin-bottom: 20px;
+}
+
+.internship-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.internship-header h3 {
+  font-size: 20px;
+  color: var(--text-color);
+  margin: 0;
+}
+
+.internship-date {
+  font-size: 16px;
+  color: var(--gray);
+  font-style: italic;
+}
